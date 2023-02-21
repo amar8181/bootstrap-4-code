@@ -1,0 +1,215 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header{
+    height:30px;
+    padding-top: 5px;
+   background: darkblue;
+   display: flex;
+   justify-content: flex-end;
+   
+}
+.headerone a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 50px;
+    color: white;   
+}   
+.headerone a:hover{
+    text-decoration: none;
+    color: white;
+}   
+.headerone a:link{
+    text-decoration: none;
+    color: white;
+}
+.headerone a:visited{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+        box-shadow: 1px 1px 5px black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;  
+}
+.navbar a:hover{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+.navbar a:link{
+    text-decoration: none;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+}
+.navbar button{
+    background-color: darkblue;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 800;
+}
+/* .section-one{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/07/18/28/businessman-2606509_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: -20px;
+      } */
+.card .img-circle{
+    height: 100px;
+    width: 100px;
+}
+.card a{
+    color: white;
+    text-decoration: none;
+}
+.card a:hover{
+    color: white;
+    text-decoration: none;
+}
+.services .card{
+    padding: 20px;
+    height:300px;
+}
+.card{
+    position: relative;
+}
+.card a{
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    width: 90%;
+}
+.section-three p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.section-four{
+    margin: auto;
+    text-align: center;
+}
+.section-five{
+    margin-top: 40px;
+}
+.button-one {
+background-color:darkblue;
+border-radius: 5px;
+border: 1px solid transparent;
+display: block;
+margin-left: 220px;
+height: 80px;
+}
+.button-one a{
+    color: white;
+   text-decoration: none;
+   font-size: 15px;
+}
+.button-one a:link{
+    color: white;
+   text-decoration: none;
+}
+.button-one a:hover{
+    color: white;
+   text-decoration: none;
+}
+.button-one a:visited{
+    color: white;
+   text-decoration: none;
+   font-size: 15px;
+}
+.section-six{
+    background-color: lightblue;
+    color: darkblue;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+.section-six img{
+    height: 133px;
+    width: 150px;
+    box-shadow: 2px 2px 3px black;
+    margin: 10px;
+}
+.section-seven{
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+    line-height: 45px;
+}
+
+.section-seven input{
+    background-color: green;
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    padding: 7px;
+    border: none;
+    margin-top: 0.8%;
+}
+.section-eight {
+    background-color:rgb(70, 69, 69);
+}
+.section-eight h1{
+   color: white;
+}
+.section-eight a{
+        color: white;
+        text-decoration: none;
+        display: block;
+}
+.link a{
+ color: white;
+ text-decoration: none;
+ line-height: 30px;
+}
+.link a:active{
+    color: white;
+    text-decoration: none;
+}
+   .link a:visited{
+    color: white;
+    text-decoration: none;
+}
+.link a:hover{
+    color: white;
+    text-decoration: none;
+}
+.section-eight p{
+    color: white;
+}
+.social-media{
+    display: flex;
+}
+ .social-media img{
+    height: 50px;
+    width: 50px;
+margin-left: 30px;
+margin-bottom: 30px;
+}
+.footer{
+        background-color: rgb(45, 175, 45);
+        color: white;
+        line-height: 50px;
+}
+.fixed button{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}

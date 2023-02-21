@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agasti-technologies</title>
+    <link rel="stylesheet" href="agasti.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="sticky">
+        <!-- <header-start> -->
+        <div class="header">
+            <div class="headerone">
+                <a href="#"><img
+                        src="https://www.pngfind.com/pngs/m/181-1818837_ios-mail-icon-email-hd-png-download.png"
+                        style="height: 10px;width:15px;text-decoration: none;"> SALES DEPARTMENT</a>
+                <a href="#"><img
+                        src="data:image/jpeg;base64,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"
+                        style="height: 12px;width:15px;text-decoration: none;"> BISUNESS TEAM</a>
+                <a href="#">CAREER <img src="https://www.agastitech.com/assets/img/new.gif" alt=""> </a>
+            </div>
+        </div>
+        <!-- header-end -->
+
+        <!-- navbar-start -->
+        <div class="navbar">
+            <div>
+                <img src="https://www.agastitech.com/assets/img/agasti.png">
+            </div>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Product</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Downloads <img src="https://www.agastitech.com/assets/img/new.gif" alt=""></a>
+            </div>
+            <div>
+                <button>Enquire Now</button>
+            </div>
+        </div>
+    </div>
+    <!-- navbar-end -->
+
+    <!-- slider start -->
+    <!-- <div class="container-fluid"> -->
+    <!-- <h2>Carousel Example</h2> -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+            <div class="item">
+                <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg" alt="Los Angeles"
+                    style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>LA is always so much fun!</p>
+                </div>
+            </div>
+
+            <div class="item active">
+                <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=2000"
+                    alt="Chicago" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago!</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+                    alt="New York" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>We love the Big Apple!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- </div> -->
+
+    <!-- slider end -->
+    <!-- amar  -->
+    </div>
+
+    <!-- section-1-end-->
+
+    <!-- section-2-start -->
+
+    <div class="container-fluid">
+
+        <div class="row services">
+            <div class="card col-lg-3 col-md-3 text-center" style="background: rgb(58, 223, 58); color: white;">
+                <div>
+                    <img src="https://png.pngtree.com/png-vector/20210106/ourmid/pngtree-beautiful-mobile-mockup-design-png-png-image_2701379.png"
+                        class="img-circle img-responsive center-block">
+                </div>
+
+                <h3>Website Design</h3>
+                <p>Website Design, Responsive Web Design, Mobile UX/UI Design</p>
+                <a href="https://www.agastitech.com/web-design-services">View more111111...</a>
+            </div>
+
+            <div class="card col-lg-3 col-md-3 text-center" style="background: rgb(31, 188, 216, 0.5); color: white;">
+                <img src="https://www.pngmart.com/files/11/E-Commerce-PNG-Free-Download.png"
+                    class="img-circle img-responsive center-block">
+
+                <h3>ECommerce Solutions</h3>
+                <p>Magento eCommerce Development, Drupal Ubercart Development, Custom eCommerce Development</p>
+                <a href="https://www.agastitech.com/site/underconstruction">View more...</a>
+
+            </div>
+
+            <div class="card col-lg-3 col-md-3 text-center" style="background: rgb(189, 68, 32, 0.6); color: white;">
+                <img src="https://toppng.com/uploads/preview/mobile-app-11551049071jagigsdsvk.png"
+                    class="img-circle img-responsive center-block">
+                <h3>Mobile Apps</h3>
+                <p>iPhone/iPad, Android, Windows Phone, Hybrid Apps, Parse Migration</p>
+                <a href="https://www.agastitech.com/site/underconstruction">View more...</a>
+            </div>
+
+            <div class="card col-lg-3 col-md-3 text-center" style="background: rgb(59, 68, 202); color: white;">
+                <img src="https://p.kindpng.com/picc/s/127-1272110_web-application-transparent-hd-png-download.png"
+                    class="img-circle img-responsive center-block">
+                <h3>Web Application</h3>
+                <p>PHP, Cake PHP, Zend, Laravel Application Development</p>
+                <a href="https://www.agastitech.com/site/underconstruction">View more...</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-2-end -->
+
+    <!-- section-3-start -->
+
+
+    <div class="container-fiuid">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h1 class="text-center" style="font-weight: bold;font-size:50px;">About Agasti Technologies Pvt Ltd
+                    </h1>
+                </div>
+                <hr>
+                <div>
+                    <h1 class="text-center" style="font-size:30px ;font-weight: bold;">Delivering Value Through
+                        Innovation</h1>
+                </div>
+
+                <div class="row section-five">
+                    <div class="col-md-7 section-three">
+                        <p>Agasti Technologies is one stop solution for technology/IT startups and
+                            entrepreneurs who has great ideas and want to turn them into a product.
+                            Agasti Tech is founded in May 2015. We are helping start-ups right from
+                            prototyping of the idea to launch of the product and di- gital marketing
+                            of the product.</p>
+                        <br>
+                        <p>Agasti Technologies have dedicated team of extremely talented, customer-
+                            focused and diligent individuals having a diversified skill set. The
+                            teams at Agasti Technologies abide by stringent quality standards and
+                            tailor it’s processes to provide state-of-the art services to it’s cu-
+                            stomers. Our transparent, efficient and flexible processes help us
+                            create softw- are solutions that meet present as well as future demands.</p>
+
+                        <button class="button-one col-md-4">
+                            <a href="">Request a Free Consaltation
+                                With Our Experts</a>
+                        </button>
+
+                    </div>
+                    <div class="col-md-5 section-four">
+                        <img src="https://www.agastitech.com/assets/img/atpl_school_management_demo.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- section-3-end-->
+
+    <!-- section-6-start -->
+
+    <div class="container-fluid section-six">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center" style="font-weight:bold ">
+                    Our global customers are the center of our success
+                </h1>
+
+                <marquee>
+                    <img src="https://www.agastitech.com/uploads/images/abhinav.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/rajur_logo.png" alt="">
+
+                    <img src="https://www.agastitech.com/uploads/images/LogoAkoleCollege_1.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/PartyLogo.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/agasti_vidyalaya_new1.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/logo.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/bmpatil_new1.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/canadian.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/gatha_new1.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/jwreal_new1.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/logo1.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/sanstha-logo.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/vpfoods1.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/abhinav.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/abhinav.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/LogoAkoleCollege_1.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/PartyLogo.png" alt="">
+                    <img src="https://www.agastitech.com/uploads/images/agasti_vidyalaya_new1.png" alt="">
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <!-- section-6-end-->
+
+    <!-- section-7-start -->
+
+    <div class="container-fluid section-seven">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <p>
+                    <h4>Our Cloud based software makes your business up-to-date and you can access centralized data from
+                        <br> <br>
+                        anywhere, anytime with any device.</h4>
+                    </p>
+                </div>
+                <div>
+                    <input type="submit" value="GET IN TOUCH" class="col-md-3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-7-end -->
+
+    <!-- section-8-start -->
+
+    <div class="container-fluid section-eight">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-2 eight link">
+                    <h1>Links</h1>
+                    <a href="#">AGASTI EduCMS
+                    </a>
+                    <a href="#"> AGASTI Core College
+                    </a>
+                    <a href="#">AGASTI Smart Teacher
+                    </a>
+                    <a href="#">AGASTI Core School
+                    </a>
+                    <a href="#">AGASTI MYSHOP
+                    </a>
+                    <a href="#">PRIVACY POLICY
+                    </a>
+                    <a href="#">HELP & SUPPORT
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <!-- amar -->
+                </div>
+                <div class="col-md-3 ">
+                    <h1>Locations</h1>
+                    <p>
+                        Pune : 2nd Floor, Excella, Elite
+                        Brookland, Near Syngenta,Baner
+                        -Balewadi Road, Laxman Nagar,
+                        Baner,Pune, Maharashtra 411045
+                        <br><br>
+                        Akole : 60/4A/2 Near Bhingare
+                        Store Akole, Ahmednagar - 422601
+                        Maharashtra, India.
+                    </p>
+                </div>
+                <div class="col-md-3 ">
+                    <h1>Social Media </h1>
+                    <div class="social-media">
+                        <div>
+                            <a href="#">
+                                <img class="img-rounded img-responsive"
+                                    src="data:image/png;base64,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"
+                                    alt="">
+                            </a>
+
+                            <a href="#">
+                                <img class="img-rounded img-responsive"
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEU6VZ////82Up4zUJ1UbKx4ibswTpyMmsQ5V6EtTJupss8nSJnN0+WVosgqSpo4U56eqcyDksDj5vBwgbb3+PxFXqNabqt9jb3S2OhidbC9xdy3v9l0hLjZ3etLY6bq7fTEyt4dQpdJYqekrs2uttK97JEgAAADFUlEQVR4nO3c2XLiMBBAUUZmM3IsFsNgSIAk/P83TsLzjCNbI3c3de9rqlw+BV7VZDIhIiIiIiIiIiIiIiIiIlJeCM4VxbzsrJDey8G50s/3h91ss3jp7LdJYii8262rbfPr545eem/753y9qWJwjypzwqJuT7E6i0JX7459fOaEvn3r5zMmLPy5r8+W0L9Gn15MCkO9GuAzJHSh9xFoS1hcrsOAVoTzdsghaEhYTAcDbQjdfjjQhDAshx6DRoShrhKAFoR+nQI0ICzaJKABYZlyEFoQ1p9pQPVCd0m4UJgQ+lsiULvQXVKB2oW+1ysZg8KwTAYqF5ZpF3sDQr99cqFLvJ3RL0y+2usXDnw1Y0YYUh58TQiL3X8Aql57Kvschs3xdF/9pftC8fphj3vSalZ6X5tbA/axJ5rtzhdBem+HVEeeaKq55s+po1DHAW/vJj+/yfdifdxX1OYX9LuwjxIejH5Fv3LTGOBJ8eXup+KEH056P4cXJby+S+9mQlHCUy29mwlFCddz6d1MKEq4sXsmjRTOEGoOIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQR27+78qYucRX37GFR7Jrb65ddBQz1Hbv2sCjpSixvEcgEitlhcN+cNenRnZxagThm+wK6ghC4TXiEYSr8tmFwstvIwhb2XX+EYR72St+fmEj6htDuBW+a8svPArPauQXnp9e+CI8jZJfKP38mF8ofDnML2wuwsOn2YVX6ena7MKt9PRpduHt6YUr6eHM7MKF9HBmduGr9OvU7MKp9BR4bmEjDcwulJ9zzy2U/+1hbqH0s1N+4afsq8QRhPKT/LmFB+kb7+xC6Tua7ELhdacRhOLPTtmFCv7ZQOY14LP4xWISlh2FqFkM17UF8VPpF7Hjb3HTJl2nSwXAzp5jnqYrhAj1hxCh/hAi1B9ChPpDiFB/CBHqDyFC/SFEqD+ECPWHEKH+ECLUH0KE+kOIUH8IEeoPIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQfwgR6g8hQv0hRKg/hAj1hxCh/hAi1B9ChD36A+1ASVvVoq0WAAAAAElFTkSuQmCC"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img class="img-rounded img-responsive"
+                                    src="data:image/png;base64,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"
+                                    alt="">
+                            </a>
+                            <a href="#">
+                                <img class="img-rounded img-responsive"
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUAd7f///8AcrUAbrMAdLbA2+uRuNex0eY+kcR3rNIAc7V5qdCty+EAcLQAbLLf7fX3+v1opc4eg71fncq51eg7jsKew94Aernm8vj3/P3J3u3Z6PKjyOEaf7uLudnu9/tNmMjR4e5bnMqXv9wviMCDstU8j8OHsdRim8i21OcBZiGFAAAHVUlEQVR4nO2dW3uyvBKGQxIt5SUgCCLuUEv7rf7/P7igllaRzRBIdXLlOepBA7nNbpgkM8S60SKaB3aYEJxKQjuYR4tbJHL1d+ouOaMOf3RFR4g7lPGlmzYTRjlzHl3DSeSwPGog9GOBufFuxUXs1wlnVI/2q+TQ2S3hij26SpOLra4JV96j66NA3uqXcKZfC5Zis4rQp4+uiyJR/5sw1muS+ZUTXwgj8eiaKJOISsI012cdrIvnaUHo6jnNXMTcgnCp6ygs5SwtstC3j5biCxLp3EmLbhqRua6L4UV0TgKdh2ExEANiaz4ObRI+ug6KFRKsPhmodOczahQv9Og6KBMXnpeEcRwmHtPEL3ctLvhxtancrVt3SYRWkJzZbnbrTLaiM9XHIGL2xmrQNmB6jEmHu018pTZ7HTwE7Fjvn9cK8COy9w6+Qjvsg1G8dQOid2WxQx9ggYjZZS5e+wGLjorXUcBjCGAx3aAdi9Tvpyu1CJGuiwIwCC9COtvwfdrP9q0jykYUKzCgtUE5nzI4oGXFCBuRglaKSjuEI5GdhhBmCNswWfRzXQnfXOMsBwFaB3SrPgUvhhfh2+MRL8MIt+ja0NsOI1yjcy8LoE1aKds/usZDBbW6K6XaE+JrQzZwHGboxiFrdJG2y390hQdryJdFqRM6w3SY4Y3R9Ib6aCohPPPAulzdd0oRumrYbgjhCZ1ZWp7sG0L4js4sJcMs0xQjIHHOcMIDupn0S+IEBcweXVVJcRtKiNatz3q31i6a4eyjpWDGaZbgWwsr8WQNIMzxmTO/4mG/ZXPEOggvcsKeL+EMOWDZUTvHop9jByzPe3V4Tl9Q36r9kdi3NOPWRmhvN4p7x9n9bulJl0NfX+IsP5xumm8VC/wj8EacUnJ8d1+i2ac7PyZUo5vRV+JUCMYEo1rSGRkZGWkpXa92lCFYiuUoSfZhGO73CRFMUMWsxTvb1P7t21GovZTD2P4jOETbrb/OSjsxTTN/u9m9nkOmzoQS4vivVWfSbHtzLw/aSy33TaUoc5a7dcsXd+rv/iWeEkja4416aXLS0LzHm+ySWikuyPusu4xlbV7J9MY+7/VFrfd3L3WOfYUs/2bLmIt8BzrqmbrxxIyQfdL7k5cUsG31cuWBZHHUX6BSFE/7UQp550ftV6U9VzQu+jnZ4HgDt5t3E046TgB546rmEIYdp6q2VMUZ4rG80WK6mzpiDnnhS+19rHfKKPV6aQg2sAEv2k31AUdVE3IH9L/3Ok3kZ1dNyPcDT+38ah1O4mlXTAjbNGhRdr9KPR+hkG7BUv4UxqpaQiE5BittJlg0lBJ6gw57NOlz/KKhlHDAMYE2jT8BopLwfdCJpGalo2cblYTDLju0aPRtJJWE0+h1ZD99fsKxB3efn3DsWSUEhCMPKyEgHLliYCDMRk2nGAjHBUZEQTgb04goCBdjFgwUhKNWfRyEY86Y4yBcjLC/cRBaZ/nZFAnhiPs6f0yY+Vupj8YtBsL1Kgi9LxF7vhn67Si/XvwV4eZM2c8pR069/duwtpQPBvA3hOtjPX4fF0lrBLUmyQcL/hPCz8Zdb+8Mjx0zwun2F4RtuSfEBxzRlzZN/4CwPbkG7d9J/tETt2FXcg0B2mn9knR2AOWE687Xe+Db1tLfiMoJz52TIA+hz/lPdjJVTdiXAIZ9Ah/0JjsQVRP2DR/wdWvp5UIxYb9PHnoF8iS7XCgm7De2YAdXihnrOQkBQXvKRCoQZc/ZSyEOeQ+20y8dakwtYf0sVZMEzAKX3qBRSriGrGHAgbiQTfKglBDkewDetpZO6qSU8B/IDuGgZ0nHbVRKCPvZPRih7Fe+0n18mB8XOJn+7wkJgZ5qYIBK2fA4KgnrpdoIYV3+GQnr525bBFwQn5EQuDuNmBC4J2YIhz3NED6CkGlPaNrQEBpCQ2gIDaEhNISG0BAaQkNoCA2hITSEhtAQGkJDaAgNoSE0hIbQEBpCQ2gIDaEhNISG0BAaQkNoCA2hITSEhtAQGkJDaAivCUH3GzETwlICv9WeDourDwz0AMxiL534nEKuUtcvEsISzwNv7nJQhBP5xOe0I7tjpc+7a3asJ7NnKeDFrqIKkPAf4Kc1PL+3x53uC/G4t+kbSrWIh/13LEcE+yraI+h8QXZoysPgJN1JR9LDgImB857JJh0badfbf9gt+gjb0vcwErcVsu2cDZv5BM3bH2bnYnxodt4uqULDZ4Wuh+mZ2MvoVyPjfT+9EiIbTgKLQmLrPUy5TaTNORxyAiIfUhGF6JxEuiTWbhaLyELzcbgg40K2P7ucpUUsV+duytyCUDr8EAKVodCIZUWTJdp7OoniE65M4BjrOhKdMuhiSejruiRS/5uwN8QmUl18mpc0o+2hfBHrO7npdyLVlX6tWCX/rFLFzjrST2OUQyu3+08yXD8W+qyLXMQ/DturdL9RzvRoR4flV67M64TGqbvkjDqYm7JMPM+X7rU7upayeRHNAzvE6rtJQjuYR7XEEf8Hv9yYWp88rfoAAAAASUVORK5CYII="
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-8-end -->
+
+    <!-- footer-start -->
+
+    <div class="footer">
+        <div class="container ">
+            <h3> © 2021 Agasti Technologies Pvt. Ltd. All Rights Reserved.</h3>
+        </div>
+    </div>
+
+    <!-- footer-end -->
+
+    <div class="fixed">
+        <a href=""><button class="btn btn-primary">Send us a massage</button></a>
+    </div>
+
+</body>
+
+</html>
